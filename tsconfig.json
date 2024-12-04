@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5", // ES5 veya ES6 olabilir
+    "lib": ["dom", "es6"],
+    "jsx": "react-jsx", // JSX için doğru ayarı burada belirtin
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
+}
